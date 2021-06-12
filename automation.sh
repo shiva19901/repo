@@ -1,5 +1,6 @@
-this is first line in git commit
-#!/bin/bash ......> shebaning line add
-my friend
-read file
-usera
+#!/bin/bash
+yum install httpd -y
+service httpd start
+chkconfig httpd on
+mkdir /var/www/html
+echo 'Hey!! this is my website!' > /var/www/html/index.html
